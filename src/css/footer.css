@@ -245,6 +245,24 @@
     gap: 15px;
   }
 
+	.footer-social-link {
+		width: 44px;
+		height: 44px;
+		display: inline-block;
+		border: 1px solid rgba(255, 255, 255, 0.1);
+		border-radius: 10px;
+
+		transition: transform 250ms linear, opacity 250ms linear,
+			border 250ms linear;
+	}
+
+	.footer-social-link:hover,
+  .footer-social-link:focus {
+    opacity: 0.7;
+    transform: scale(1.1);
+		border: 1px solid #fff;
+  }
+
   .footer-icons-copy {
     fill: var(--white-color);
     width: 11px;
@@ -278,11 +296,6 @@
     transition: opacity 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
   }
 
-  .footer-social-link svg:hover,
-  .footer-social-link svg:focus {
-    opacity: 0.5;
-    transform: scale(1.2);
-  }
   .footer-category-item:hover,
   .footer-tel:hover,
   .footer-address-link:hover,

@@ -1,0 +1,47 @@
+@keyframes bounceInTop {
+	0% {
+		transform: translateY(-100%);
+		opacity: 0.6;
+	}
+
+	100% {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+
+@keyframes bounceInLeft {
+	0% {
+		transform: translateX(-1100px);
+		opacity: 0.6;
+	}
+
+	100% {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+
+@keyframes bounceInRight {
+	0% {
+		transform: translateX(1100px);
+		opacity: 0.6;
+	}
+
+	100% {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+
+@keyframes bounceInBottom {
+	0% {
+		transform: translateY(30%);
+		opacity: 0.6;
+	}
+
+	100% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}

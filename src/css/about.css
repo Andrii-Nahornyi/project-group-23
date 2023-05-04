@@ -1,3 +1,4 @@
+/* ------------------MOBILE------------------------- */
 .about-section {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -43,6 +44,9 @@
     width: 375px;
   }
 }
+
+
+/* --------------------TABLET-------------------------- */
 @media screen and (min-width: 768px) {
   .about-section {
     padding-top: 64px;
@@ -86,10 +90,17 @@
     width: 704px;
   }
 }
+
+
+/* -------------------DESKTOP------------------------- */
 @media screen and (min-width: 1280px) {
   .about-section {
     padding-top: 80px;
     padding-bottom: 80px;
+
+		animation-name: bounceInBottom;
+		animation-duration: 750ms;
+		animation-timing-function: linear;
   }
 
   .about-container {

@@ -152,6 +152,10 @@ nav {
     max-width: 1280px;
     padding-left: 52px;
     padding-right: 52px;
+
+		animation-name: bounceInTop;
+		animation-duration: 750ms;
+		animation-timing-function: linear;
   }
 
   .nav-link {

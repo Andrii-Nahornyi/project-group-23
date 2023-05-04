@@ -47,7 +47,6 @@
 	}
 }
 
-/* ################################################## */
 /* --------------------TABLET-------------------------- */
 @media screen and (min-width: 768px) {
 
@@ -78,7 +77,6 @@
 	}
 }
 
-/* ##################################################### */
 /* -------------------DESKTOP------------------------- */
 @media screen and (min-width: 1280px) {
 
@@ -95,15 +93,27 @@
 	.hero-title {
 		max-width: 750px;
 		order: -2;
+
+		animation-name: bounceInLeft;
+		animation-duration: 750ms;
+		animation-timing-function: linear;
 	}
 
 	.hero-text {
 		max-width: 282px;
 		height: 90px;
 		order: -1;
+
+		animation-name: bounceInRight;
+		animation-duration: 750ms;
+		animation-timing-function: linear;
 	}
 
 	.hero-picture {
 		max-width: 676px;
+
+		animation-name: bounceInRight;
+		animation-duration: 750ms;
+		animation-timing-function: linear;
 	}
 }
